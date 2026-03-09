@@ -42,7 +42,7 @@ export default function HowItWorksSection() {
             {steps.map((item, index) => {
               const Icon = item.icon;
               return (
-                <div key={index} className="flex-1">
+                <div key={index} className="relative flex-1">
                   <div className="flex flex-col items-center">
                     {/* Icon circle */}
                     <div className="relative mb-6">
