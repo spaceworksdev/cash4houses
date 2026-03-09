@@ -42,7 +42,7 @@ export default function HowItWorksSection() {
             {steps.map((item, index) => {
               const Icon = item.icon;
               return (
-                <div key={index} className="flex-1">
+                <div key={index} className="relative flex-1">
                   <div className="flex flex-col items-center">
                     {/* Icon circle */}
                     <div className="relative mb-6">
@@ -66,7 +66,7 @@ export default function HowItWorksSection() {
 
                     {/* Connector line */}
                     {index < steps.length - 1 && (
-                      <div className="absolute top-10 -right-[calc(50%-40px)] w-[calc(100%-80px)] h-1 bg-gradient-to-r from-emerald-400 to-emerald-200 mt-6"></div>
+                      <div className="absolute left-1/2 top-10 h-1 w-full translate-x-10 bg-gradient-to-r from-emerald-400 to-emerald-200"></div>
                     )}
                   </div>
                 </div>
