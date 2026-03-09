@@ -8,8 +8,8 @@ export default function FounderStorySection() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Left: Image/Video placeholder */}
-          <div className="order-2 md:order-1">
-            <div className="relative rounded-2xl overflow-hidden shadow-elevated h-96 md:h-full md:min-h-[500px] bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center group">
+          <div  className="order-2 md:order-1">
+            <div style={{ backgroundImage: `url('https://img.freepik.com/free-photo/portrait-elegant-professional-businessman-speaking-conference_23-2150917210.jpg?semt=ais_hybrid&w=740&q=80')` }} className="relative rounded-2xl overflow-hidden shadow-elevated h-96 md:h-full md:min-h-[500px] bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center group">
               {/* Placeholder for image - in production, replace with actual image */}
               <div className="absolute inset-0 bg-slate-400/20"></div>
               <button className="relative z-10 flex items-center justify-center w-20 h-20 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white shadow-elevated hover:shadow-hover transition-all transform hover:scale-110">

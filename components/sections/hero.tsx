@@ -46,8 +46,11 @@ export default function HeroSection() {
 
   return (
     <>
-      <section className="relative min-h-[600px] md:min-h-[700px] bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 flex items-center justify-center px-4 py-16 md:py-24 overflow-hidden">
+      <section style={{ backgroundImage:`url('https://cash4housesfla.com/wp-content/uploads/2021/11/phil-hearing-IYfp2Ixe9nM-unsplash.jpg')`}} className="relative bg-center bg-cover  min-h-[600px] md:min-h-[700px] bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 flex items-center justify-center px-4 py-16 md:py-24 overflow-hidden">
         {/* Background blur circles */}
+        <div className="absolute bg-black/40 inset-0 overflow-hidden">
+         
+        </div>
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
         </div>

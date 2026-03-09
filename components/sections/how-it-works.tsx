@@ -37,7 +37,7 @@ export default function HowItWorksSection() {
         </div>
 
         {/* Desktop timeline - horizontal */}
-        <div className="hidden md:block">
+        <div className="hidden md:block relative">
           <div className="flex items-center justify-between gap-4">
             {steps.map((item, index) => {
               const Icon = item.icon;
@@ -63,11 +63,6 @@ export default function HowItWorksSection() {
                         {item.description}
                       </p>
                     </div>
-
-                    {/* Connector line */}
-                    {index < steps.length - 1 && (
-                      <div className="absolute top-10 -right-[calc(50%-40px)] w-[calc(100%-80px)] h-1 bg-gradient-to-r from-emerald-400 to-emerald-200 mt-6"></div>
-                    )}
                   </div>
                 </div>
               );
