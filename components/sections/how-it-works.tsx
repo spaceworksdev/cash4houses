@@ -63,6 +63,10 @@ export default function HowItWorksSection() {
                         {item.description}
                       </p>
                     </div>
+                    {/* Connector line */}
+                    {index < steps.length - 1 && (
+                      <div className="absolute left-1/2 top-10 h-1 w-full translate-x-10 bg-gradient-to-r from-emerald-400 to-emerald-200"></div>
+                    )}
                   </div>
                 </div>
               );
@@ -101,6 +105,8 @@ export default function HowItWorksSection() {
             );
           })}
         </div>
+
+        
       </div>
     </section>
   );
